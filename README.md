@@ -1,2 +1,2 @@
 # Bountier
-A Github bounty solution that can read through the authenticated user's repositories and fetch any PR comment (in a specific format) which is to specifically posted to provide bounty to other Github User.
+A version control bounty solution that listens to specific events on Pull Requests on the authenticated user's repositories and look for a User in a Pull Request comment to be awarded the bounty and storing the information of the User to be awarded the Bounty.
